@@ -1,10 +1,6 @@
 // Utilizzando i dati forniti, creare un array di oggetti per rappresentare i membri del team. Ogni membro è caratterizzato dalle seguenti informazioni: nome, ruolo e foto.
 
 
-// MILESTONE 2:
-// Stampare le stesse informazioni su DOM sotto forma di stringhe
-
-
 
 // MILESTONE 0:
 // Creare l’array di oggetti con le informazioni fornite.
@@ -60,4 +56,14 @@ for(let i = 0; i < team.length; i++){
      teamIesimo = team[i];
 
      console.log(teamIesimo);
+
+
+     for(let key in teamIesimo){
+        console.log(key + " = " + teamIesimo[key]);
+     }
 }
+
+
+//// MILESTONE 2:
+// Stampare le stesse informazioni su DOM sotto forma di stringhe
+
