@@ -2,6 +2,11 @@
 
 
 
+  
+  const listName = document.getElementById('list-name');
+  const listRuolo = document.getElementById('list-ruolo');
+  const listImg = document.getElementById('list-img');
+
 // MILESTONE 0:
 // Creare l’array di oggetti con le informazioni fornite.
 
@@ -55,15 +60,31 @@ for(let i = 0; i < team.length; i++){
 
      teamIesimo = team[i];
 
-     console.log(teamIesimo);
+    //  console.log(teamIesimo);
 
 
      for(let key in teamIesimo){
-        console.log(key + " = " + teamIesimo[key]);
+        console.log(key + " = " + teamIesimo[key]);         
      }
+
+      //// MILESTONE 2:
+        // Stampare le stesse informazioni su DOM sotto forma di stringhe
+
+     const nameUser = document.createElement('li');
+     nameUser.innerHTML = teamIesimo.name;
+     listName.append(nameUser);
+
+
+     const ruoloUser = document.createElement('li');
+     ruoloUser.innerHTML = teamIesimo.role;
+     listRuolo.append(ruoloUser);
+
+     const imgUser = document.createElement('li');
+     imgUser.innerHTML = teamIesimo.img;
+     listImg.append(imgUser);
+      
 }
 
 
-//// MILESTONE 2:
-// Stampare le stesse informazioni su DOM sotto forma di stringhe
+
 
