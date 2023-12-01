@@ -3,3 +3,23 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.container{
+    display: flex;
+}
+
+ul{
+    margin: 0 70px;
+}
+
+li{
+   list-style-type: none;
+}
