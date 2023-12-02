@@ -1,0 +1,44 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+.header{
+    text-align: center;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+#lorem{
+    margin-top: 20px;
+}
+
+.main{
+    margin-top: 40px;
+}
+
+ #row{
+    display: flex;
+    flex-wrap: wrap;
+    
+} 
+
+.card{
+    width: calc((100% / 3) - 30px);
+    margin: 30px 15px;
+    text-align: center;
+    border: 1px solid black;
+} 
+
+.img img{
+    width: 100%;
+}
