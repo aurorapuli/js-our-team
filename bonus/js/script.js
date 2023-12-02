@@ -13,7 +13,7 @@ const team = [
   {
       "name": "Wayne Barnett",
       "role": "Founder & CEO",
-      "img": "wayne-barnett-founder-ceo.png"
+      "img": "wayne-barnett-founder-ceo.jpg"
   },
 
   {
